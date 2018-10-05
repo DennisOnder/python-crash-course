@@ -6,19 +6,25 @@ class Person:
     def __init__(self, name, email):
         self.__name == name
         self.__email == email
+        return
 
     def set_name(self, name):
         self.__name == name
+        return
 
     def set_email(self, email):
         self.__email == email
+        return
 
     def get_name(self):
-        return self.__name
+        print(self.__name)
+        return
 
     def get_email(self):
-        return self.__email
+        print(self.__email)
+        return
 
 
 dennis = Person('Dennis Onder', 'dennis@gmail.com')
-print(dennis.get_name())
+
+dennis.get_name()
